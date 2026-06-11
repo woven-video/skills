@@ -14,6 +14,8 @@ npx skills add woven-video/skills
 |-------|-------------|
 | [`analyze-video`](skills/analyze-video/SKILL.md) | Break down any video (URL or local file) into a structured analysis — hook, pacing, shot sheet, text overlays, and format archetype. |
 
+These are open versions of pipelines that ship inside [Woven](https://woven.video) — the product versions add audio analysis (word-level transcription, song ID) and chained authoring.
+
 ## Layout
 
 ```
