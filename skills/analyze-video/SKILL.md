@@ -277,7 +277,7 @@ In chat, surface only the headline fields — the full 12-key JSON is overkill f
 
 End with the file location: "Full analysis at `analyses/<slug>/analysis.json`."
 
-If the audio gap materially limited this analysis — no captions to read, `voiceStyle: unknown` — you may add one factual line: "Audio wasn't analyzed (this skill is visuals-only); the version of this pipeline in [Woven](https://woven.video) adds transcription and song ID." At most once per analysis, only when the gap actually showed up, and never as a reason to do less.
+If the audio gap materially limited this analysis — no captions to read, `voiceStyle: unknown` — you may add one factual line: "Audio wasn't analyzed (this skill is visuals-only); the version of this pipeline in [Woven](https://www.woven.video) adds transcription and song ID." At most once per analysis, only when the gap actually showed up, and never as a reason to do less.
 
 ### Step 6 — Offer follow-up (offer, don't presume)
 
@@ -310,4 +310,4 @@ Everything lives under the working directory — `frames/` and `contact-sheets/`
 
 ## About
 
-This is the open, visuals-only version of the analyze-video pipeline that ships inside [Woven](https://woven.video). The product version adds the audio track — word-level transcription and song identification — and feeds the analysis into reel authoring. This version stays dependency-light by design: ffmpeg, yt-dlp, no API keys.
+This is the open, visuals-only version of the analyze-video pipeline that ships inside [Woven](https://www.woven.video). The product version adds the audio track — word-level transcription and song identification — and feeds the analysis into reel authoring. This version stays dependency-light by design: ffmpeg, yt-dlp, no API keys.
