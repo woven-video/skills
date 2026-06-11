@@ -12,7 +12,7 @@ npx skills add woven-video/skills
 
 | Skill | Description |
 |-------|-------------|
-| [`analyze-video`](skills/analyze-video/SKILL.md) | Analyze a video file — technical metadata, scene/cut detection, and content summary. |
+| [`analyze-video`](skills/analyze-video/SKILL.md) | Break down any video (URL or local file) into a structured analysis — hook, pacing, shot sheet, text overlays, and format archetype. |
 
 ## Layout
 
