@@ -20,8 +20,8 @@ Resolve and cache sound effects for video edits using the woven-sfx MCP server.
 
 ## Prerequisites
 
-1. MCP server configured — see [references/mcp-setup.md](references/mcp-setup.md).
-2. Project-local sound library — resolved in order: `WOVEN_SFX_LIBRARY` env → `sfx-library` in `.claude/project.md` → `./sounds/sfx/` under cwd. Run `scripts/pull-library.sh` from your project root to prefetch, or let MCP tools pull on demand.
+1. **MCP server configured** — skill install alone does not enable tools. If `sfx_*` tools are missing, stop and direct the user to [references/mcp-setup.md](references/mcp-setup.md) (Cursor `~/.cursor/mcp.json`, Claude Code `.mcp.json`, or Claude Desktop MCP settings). Restart the agent after adding config.
+2. **Project-local sound library** — resolved in order: `WOVEN_SFX_LIBRARY` env → `sfx-library` in `.claude/project.md` → `./sounds/sfx/` under cwd. Run `scripts/pull-library.sh` from your project root to prefetch, or let MCP tools pull on demand.
 
 ## Workflow
 
