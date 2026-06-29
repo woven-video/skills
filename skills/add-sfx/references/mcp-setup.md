@@ -1,6 +1,6 @@
 # MCP setup
 
-Required for `sfx_search`, `sfx_pull`, `sfx_resolve`, and `sfx_list_installed`. The skill install does not add MCP automatically.
+Required for `sfx_search`, `sfx_pull`, and `sfx_list_installed`. The skill install does not add MCP automatically.
 
 ## Cursor
 
@@ -51,7 +51,7 @@ Restart Claude Desktop.
 
 ## Verify
 
-Confirm `sfx_resolve`, `sfx_pull`, `sfx_search`, and `sfx_list_installed` appear in your agent's MCP tool list before running `/edit-plan` SFX steps.
+Confirm `sfx_search`, `sfx_pull`, and `sfx_list_installed` appear in your agent's MCP tool list before using Woven SFX.
 
 ## Optional: pin library path
 
@@ -71,7 +71,7 @@ Override where `.wav` files are stored:
 }
 ```
 
-Or set `sfx-library` in `.claude/project.md` (same field `/edit-plan` and `/assemble` read):
+Or set `sfx-library` in `.claude/project.md`:
 
 ```yaml
 sfx-library: assets/sfx/
