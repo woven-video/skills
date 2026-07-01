@@ -85,4 +85,4 @@ sfx-library: assets/sfx/
 
 ## Catalog
 
-`https://sfx.woven.video/catalog.json`
+`https://www.woven.video/sfx/catalog.json`

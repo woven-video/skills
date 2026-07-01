@@ -2,11 +2,11 @@
 name: add-sfx
 description: Use when a video edit, motion graphic, app demo, reel, short, animation, or interface needs sound effects, audio cues, whooshes, impacts, beeps, glitches, camera sounds, applause, or local .wav files.
 license: MIT
-compatibility: Requires Node.js, network access to sfx.woven.video, and woven-sfx-mcp MCP server.
+compatibility: Requires Node.js, network access to https://www.woven.video/sfx, and woven-sfx-mcp MCP server.
 metadata:
   author: woven-video
   version: "0.2"
-  site: https://sfx.woven.video
+  site: https://www.woven.video/sfx
 ---
 
 # Add SFX
